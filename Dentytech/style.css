@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: General Sans;
+}
+#nav {
+    /* background-color: salmon; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#navpart1 {
+    display: flex;
+    align-items: center;
+}
+#navpart1 h3{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 100;
+}
+.round {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.ri-skull-2-fill {
+    border: none !important;
+    color: white;
+    background-color: #ff592a;
+}
+#navpart2 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#navpart2 h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 100;
+}
+#navpart3 {
+    display: flex;
+    align-items: center;
+}
+#navpart3 button {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-weight: 50px;
+}
+.signup {
+    border: none !important;
+    background-color: #ff592a;
+    color: white;
+}
+#main>h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width:  300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+#img1{
+    transform:  translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footerleft {
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+}
+#footerleft div{
+    height: 10px;
+    width: 10px;
+    background-color: #ff592a;
+    border-radius: 50%;
+}
+#footerleft h3{
+    font-weight: 100;
+}
+#footerright {
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+}
+#footerright h3 {
+    font-weight: 100;
+}

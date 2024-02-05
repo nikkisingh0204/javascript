@@ -48,6 +48,7 @@ html,body {
     text-decoration: none;
     font-size: 18px;
     color: #fff;
+    text-decoration: none;
 }
 #heading  {
     margin-top: 90px;
@@ -99,6 +100,7 @@ html,body {
 }
 #landingfooter a {
     text-transform: uppercase;
+    text-decoration: none;
 }
 #landingfooter #iconset {
     display: flex;
@@ -174,6 +176,7 @@ html,body {
     border: 1px solid #fff;
     padding: 10px 22px;
     border-radius: 100px;
+    text-decoration: none;
 }
 #subscribe {
     padding: 20px 30px;
@@ -190,6 +193,7 @@ html,body {
     text-transform: uppercase;
     font-size: 14px;
     margin-top: 10px;
+    text-decoration: none;
 }
 #footer {
     display: flex;
@@ -212,4 +216,5 @@ html,body {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
 }
