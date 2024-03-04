@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui-400;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    background-color: #fcf6ef;
+}
+#nav h1 {
+    color: #20443f;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 20px;
+}
+#part-2 a {
+    margin-right: 30px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 520;
+    line-height: 10px;
+    font-family: sans-serif;
+    color: #20443f;
+}
+#part-2 a:hover {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #20443f;
+}
+#imagebody {
+    width: 100%;
+    height: 80%;
+    border-top: 1px solid #20443f;
+}
+#imagebody img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+#services {
+    visibility: hidden;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 10%;
+    right: 14%;
+}
+#services>a {
+  padding: 0px 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+#services>a:hover {
+    color: palevioletred;
+
+}
+#part-2 a:nth-child(2):hover {
+    visibility: visible;
+}
+#second-part {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.heading {
+    width: 30%;
+    padding: 30px 50px;
+}
+.heading h1 {
+    font-size: 3rem;
+    text-align: left;
+    border-top: 1px solid #20443f;
+    padding: 50px 0px;
+    color: #20443f;
+}
+.overview {
+    width: 30%;
+    padding: 30px 50px;
+}
+.overview h5 {
+    text-align: left;
+    border-top: 1px solid #20443f;
+    padding: 50px 0px 0px 0px;
+    color: #20443f;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.overview p {
+    color: #20443f;
+    margin-top: 30px;
+    font-size: 0.99rem;
+    font-family: sans-serif;
+    word-spacing: 2px;
+}
+.brand {
+    width: 20%;
+    padding: 30px 50px;
+}
+.brand h5 {
+    text-align: left;
+    border-top: 1px solid #20443f;
+    padding: 50px 0px 0px 0px;
+    color: #20443f;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.brand h4 {
+     font-size: 15px;
+    color: #20443f;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.role {
+    width: 20%;
+    padding: 30px 50px;
+}
+.role h5 {
+    text-align: left;
+    border-top: 1px solid #20443f;
+    padding: 50px 0px 0px 0px;
+    color: #20443f;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+.role h4 {
+    font-size: 15px;
+   color: #20443f;
+   font-weight: 200;
+   font-family: sans-serif;
+   margin-bottom: 5px;
+}
+.images-class {
+    width: 100%;
+    height: 100%;
+}
+.images-class img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+#fourth-part {
+    width: 100%;
+}
+#fourth-part img {
+    height: 1000px;
+    width: 1500px;
+    object-fit: contain;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#photos {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.photoshoot {
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    height: 600px;
+    width: 500px;
+}
+.secondphotoshoot {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    height: 600px;
+    width: 500px;
+}
