@@ -198,3 +198,72 @@ html,body {
     height: 600px;
     width: 500px;
 }
+#fifth-part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#text-div {
+    width: 40%;
+    padding: 80px;
+}
+#text-div h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #20443f;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+#text-div p {
+    font-size: 15px;
+    color: #20443f;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+#image-div {
+    width: 60%;
+    padding: 80px 40px;
+}
+#image-div img {
+    height: 700px;
+    width: 800px;
+    object-fit: cover;
+}
+#sixth-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+#color-div {
+    display: flex;
+    gap: 15px;
+    padding-right: 60px;
+}
+.circle {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50px;
+}
+#first {
+    background-color: #111311;
+}
+#second {
+    background-color: #24433f;
+}
+#third {
+    background-color: #8caa94;
+}
+#fourth {
+    background-color: #3e3683;
+}
+#fifth{
+    background-color: #ae5ca3 ;
+}
+#sixth {
+    background-color: #d8b3b2;
+}
+#seventh {
+    background-color: #f6e9dd ;
+}
