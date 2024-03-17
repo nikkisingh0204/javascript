@@ -1,0 +1,117 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Regular;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+nav {
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+nav h4 {
+    font-size: 1.5vw;
+}
+nav i {
+    font-size: 1.5vw;
+    background-color: black;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 50%;
+}
+#main h1 {
+    margin-top: 60px;
+    padding-left: 80px;
+    width: 60%;
+    font-size: 6vw;
+    line-height: 6vw;
+}
+#content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+#content p {
+    width: 30%;
+    line-height: 1.8vw;
+}
+#features {
+    width: 20%;
+    margin-top: 30px;
+}
+.elem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+}
+#features h5 {
+    font-size: 1.2vw;
+    padding: 10px 0px;
+}
+.elem i {
+    opacity: 0;
+}
+.elem:hover i {
+    opacity: 1;
+}
+.elem:hover h5{
+    text-decoration: underline;
+}
+#image {
+    width: 100%;
+    height: 60%;
+    background-image: url("https://images.unsplash.com/photo-1524600123477-909fbe45c9ae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGJsYWNrJTIwbWFsZSUyMG1vZGVsJTIwcG9zZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: 25% 50%;
+}
+@media (max-width:600px) {
+    nav {
+        height: 60px;
+    }
+    nav h4 {
+        font-size: 3vw;
+    }
+    nav i {
+        font-size: 3vw;
+    }
+    #main h1 {
+        width: 80%;
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+    #content {
+        flex-direction: column;
+    }
+    #content p {
+        width: 100%;
+        line-height: 4vw;
+    }
+    #features {
+        width: 100%;
+    }
+    #features h5 {
+        font-size: 2vw;
+        padding: 10px 0px;
+    }
+    .elem i {
+        opacity: 1;
+    }
+    #image {
+        width: 100%;
+        height: 40%;
+    }
+}
