@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #f8f8f8;
+    padding-top: 1px;
+}
+nav {
+    width: 100%;
+    margin-top: 20px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+#part1 h1 {
+    font-size: 4vw;
+    letter-spacing: -6px;
+}
+#part1 h1 span {
+    font-size: 2.5vw;
+    font-weight: 300;
+}
+#part1 h5 {
+    text-align: end;
+    margin-top: -12px;
+    font-weight: 400;
+}
+.elem {
+    height: 100%;
+    width: 25%;
+    border-right: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.elem h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+nav i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 400;
+}
+#center {
+    width: 100%;
+    height: 90%;
+    padding: 5vw;
+}
+#video {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding:0 3vw;
+    color: #ffff;
+}
+#over1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+#over1 h1 {
+    font-size: 3.6vw;
+    font-weight: 800;
+}
+#over1 h3 {
+    font-size: 1.5vw;
+    font-weight: 100;
+    border: 1px solid #ffff;
+    padding: 1vw 1.2vw;
+    border-radius: 50%;
+}
+#over2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ffff;
+}
+#over2 h4 {
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+#over2 img {
+    width: 80px;
+}
+#scroll {
+    width: 100%;
+    height: 30%;
+    padding: 1vw;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 2vw;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.container img {
+    height: 100%;
+    width: 13%;
+    border-radius: 50%;
+    margin: 1.5vw;
+    object-fit: cover;
+    object-position: 20% 30%;
+
+}
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+#alphabet {
+    margin-top: 20px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+#alphabet h5 {
+    font-size: 2vw;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    border-bottom: 1px solid #000;
+}
+#alphabet h6 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: 0.2vw 0.6vw;
+    letter-spacing: 4px;
+    font-style: italic;
+    border: 1px solid #00000000;
+    border-radius: 50%;
+}
+#alphabet h6:hover {
+   border: 1px solid #000;
+}
+#part2  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 7vw;
+}
+#part2-part1 {
+    height: 100%;
+    width: 50%;
+    background-image: url("https://images.unsplash.com/photo-1467632499275-7a693a761056?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGdpcmwlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+#part2-part2{
+    height: 100%;
+    width: 36%;
+}
+#part2-part2 img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+#part2-part2 #text-part2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+#part2-part2 #text-part2 h5 {
+    font-size: 1.2vw;
+}
+#part2-part2 #text-part2 h6 {
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+#shot {
+    padding: 0vw 7vw;
+    margin-top: -10px;
+    font-size: 3.2vw;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -4px;
+    font-family: Monument Extended;
+}
+#heading {
+    margin-top: 30px;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: Monument Extended;
+    letter-spacing: -2px;
+}
+#part3 {
+    width: 100%;
+    margin-top: 2vw;
+    padding: 2vw 5vw;
+}
+.elem1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1vw 5vw;
+    border-top: 2px solid #000;
+    position: relative;
+    transition: all ease 0.7s;
+}
+
+.elem1:nth-last-child(1){
+    border-bottom: 2px solid #000;
+}
+.elem1 .elem1part1 h3 {
+    width: 17%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1vw;
+}
+.elem1 .elem1part2 {
+    width: 50%;
+}
+.elem1 .elem1part2 h1 {
+    font-size: 3vw;
+    font-weight: 400;
+}
+.elem1 .elem1part2 h5 {
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+.elem1 img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+   opacity: 0;
+   transition: all ease 0.3s;
+}
+.elem1:hover img{
+    opacity: 1;
+    left: 24%;
+}
+.elem1:hover{
+    background-color: rgb(231, 227, 227);
+}
+#marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 3vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+#marquee h1{
+    display: inline-block;
+    font-size: 4vw;
+    text-transform: uppercase;
+    padding: 0.8vw;
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+    font-family: Monument Extended;
+    font-weight: 400;
+    margin-right: 16px;
+    letter-spacing: 4px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+
+}
+#circle-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+}
+#circle-image #circle-div {
+    height: 90%;
+    width: 40%;
+    position: relative;
+}
+#circle-image #circle-div h3 {
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+}
+#circle-image #circle-div img {
+    height: 320px;
+    width: 350px;
+}
+#circle-image #image-div {
+    height: 90%;
+    width: 40%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1674069719655-7289402d71e9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG90cmFpdHN8ZW58MHx8MHx8fDA%3D");
+    background-position: center;
+    background-size: cover;
+}
+.port   {
+    width: 100%;
+    height: 70vh;
+    padding: 5vw;
+}
+#portrait {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1628336355622-270e8c43cc0e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE2fHxwb3RyYWl0c3xlbnwwfHwwfHx8MA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+#footer {
+    width: 100%;
+    height: 100%;
+}
