@@ -282,7 +282,7 @@ nav i {
 }
 .elem1:hover img{
     opacity: 1;
-    left: 25%;
+    left: 15%;
 }
 .elem1:hover{
     background-color: rgb(231, 227, 227);
