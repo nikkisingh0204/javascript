@@ -33,8 +33,9 @@ html,body {
     border-radius: 15px;
 }
 .loaderline {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     height: 100%;
-    width: 30%;
+    width: 0%;
     background-color: #47c698;
     border-radius: 15px;
 }
@@ -77,17 +78,35 @@ nav #links i {
 }
 #content  {
     width: 100%;
-    margin-top: 15%;
-}
-#heading  {
-   padding: 0 4vw;
-}
-#heading h1 {
-    font-size: 9.5vw;
-    font-weight: 900;
+    margin-top: 10%;
     position: relative;
 }
-#heading h1 span::after {
+#content h4 {
+    position: absolute;
+    top: 13%;
+    right: 18%;
+    width: 10%;
+    color: #a7a3a3;
+    text-transform: uppercase;
+    font-size: 1vw;
+    opacity: 0;
+}
+#heading  {
+    padding: 0 5vw;
+ }
+.reveal .parent {
+    display: block;
+    overflow: hidden;
+}
+.reveal .parent .child {
+    display: block;
+    transform: translateY(100%);
+    font-size: 9.5vw;
+    font-weight: 900;
+    color: #343333;
+    position: relative;
+}
+.child:nth-child(1) span::after {
     content: "";
     position: absolute;
     width: 32%;
