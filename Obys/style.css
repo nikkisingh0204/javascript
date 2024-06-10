@@ -151,6 +151,15 @@ html,body {
     line-height: 7vw;
     font-weight: 600;
 }
+#hero1::before{
+    content: "01";
+    position: absolute;
+    font-size: 7vw;
+    font-family: Silk Serif;
+    font-weight: 100;
+    left: 7%;
+    top: 35%;
+}
 #hero3 {
     display: flex;
     align-items: center;
@@ -513,4 +522,388 @@ html,body {
     font-weight: 100;
     left: -14%;
     top: 7%;
+}
+
+@media (max-width:600px ){
+    #page1 {
+        width: 100%;
+        height: 50vh;
+        background-color: #151515;
+        position: relative;
+        padding-top: 1px;
+    }
+    #nav {
+        padding: 5.2vw 8vw;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        top: 0;
+    }
+    #nav svg{
+        scale: 0.8;
+    }
+    #nav-part2 {
+        display: flex;
+        gap: 2vw;
+        display: none;
+    }
+    
+    .hero {
+        width: 75%;
+        margin-left: 7%;
+        height: fit-content;
+        overflow: hidden;
+        z-index:9999;
+    }
+    .hero:nth-child(2){
+        margin-top: 25vh;
+    }
+    .hero h1{
+        font-size: 9.5vw;
+        text-transform: uppercase;
+        line-height: 10vw;
+        font-weight: 600;
+    }
+    #hero1::before{
+        content: "01";
+        position: absolute;
+        font-size: 7vw;
+        font-family: Silk Serif;
+        font-weight: 100;
+        left: 7%;
+        top: 35%;
+    }
+    #hero3 {
+        display: flex;
+        align-items: center;
+    }
+    #hero3 h2 {
+        font-size: 9.5vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-bottom: 0.5vw solid #ffff;
+        margin-bottom: 1vw;
+        z-index: 99999;
+    }
+
+
+    /* #page 2 */
+
+    #page2 {
+        width: 100%;
+        height: 90vh;
+        background-color: #151515;
+        padding-top: 17vh;
+    }
+    #videocontainer{
+        height: 52vh;
+        width: 100%;
+        position: relative;
+        left: 0;
+        background-image: url("https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    #videocontainer video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+    }
+    #video-cursor {
+        position: absolute;
+        background-color: #FFA63D;
+        height: 15vh;
+        width: 25vw;
+        border-radius: 50%;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: 1;
+    }
+    #video-cursor i{
+        font-size: 5vw;
+    }
+
+
+    /* page3 */
+
+
+    #page3 {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #151515;
+    }
+    #image-container {
+        height: 100%;
+        width: 100%;
+        padding: 6vw 8vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 10vh;
+    }
+    #image {
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    #image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    #image:nth-child(2){
+        height: 75vh;
+        width: 100%;
+    }
+    #circle1-container {
+        height: 22vw;
+        width: 22vw;
+        border: 1px solid #ffff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 23vw;
+        margin-left: 2vw;
+        display: none;
+    
+    }
+
+    /* page4 */
+    #page4 {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #151515;
+    }
+    #page4 h1::before{
+        content: "03";
+        position: absolute;
+        font-size: 4vw;
+        font-family: Silk Serif;
+        font-weight: 100;
+        left: 9%;
+        top: 1%;
+    }
+    #page4-content {
+        width: 90vw;
+        position: relative;
+        left: 0%;
+        padding: 7vh 7vw;
+    }
+    #page4-content h1 {
+        font-size: 10vw;
+        text-transform: uppercase;
+        line-height: 7vw;
+        font-weight: 600;
+        margin-bottom: 8vw;
+    }
+    #page4-content #underline {
+        border-bottom: 1px solid #ffff;
+        margin-bottom: 8vw;
+    }
+    #page4-content p {
+        width: 95%;
+        font-size: 5.8vw;
+        font-weight: 600;
+    }
+    #flex-part {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 7vw;
+        gap: 3vw;
+    }
+    #flex-part img {
+        height: 65vh;
+        width: 85vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    #flex-part p{
+        font-size: 3.5vw;
+        width: 98%;
+        line-height: 4vw;
+        font-weight: 300;
+    }
+    #blue-content-div {
+        height: 70vh;
+        width: 85vw;
+        background-color: #3f7df4;
+        padding: 6vw 5vw;
+        position: relative;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .blue-content-div-elem {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid #ffff;
+        padding: 7vw 0;
+    }
+    .blue-content-div-elem h3 {
+        font-size: 4vw;
+    }
+    .blue-content-div-elem h4{
+        width: 50%;
+        font-size: 3vw;
+    }
+    #underline2 {
+        width: 85vw;
+        margin-top: 10vw;
+        border-bottom: 1px solid #ffff;
+        margin-bottom: 3vw;
+    }
+
+
+    /* page5 */
+    #page5 {
+        min-height: 40vh;
+        width: 100%;
+        background-color: #151515;
+        position: relative;
+    }
+    .elem1 {
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
+        margin-bottom: -6vw;
+    }
+    .elem1 h1 {
+        display: inline-block;
+        font-size: 12vw;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px #ffff;
+        color: transparent;
+        font-weight: 500;
+        margin-right: 16px;
+        letter-spacing: 4px;
+        animation-name: move;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes move {
+        from{
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(calc(-100% - 20px));
+        }
+    
+    }
+    .elem2 {
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
+        margin-bottom: -6vw;
+    }
+    .elem2 h1 {
+        display: inline-block;
+        font-size: 12vw;
+        text-transform: uppercase;
+        transform: translate(calc(-100% - 20px));
+        -webkit-text-stroke: 1px #ffff;
+        color: transparent;
+        font-weight: 500;
+        margin-right: 16px;
+        letter-spacing: 4px;
+        animation-name: move;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+    }
+
+
+    /* #footer */
+
+    #footer {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #151515;
+        padding: 5vw 4vw;
+    }
+    #footer h1 {
+        font-size: 10vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+    }
+    #underline3 {
+        margin-top: 7vw;
+        border-bottom: 1px solid #ffff;
+        margin-bottom: 5vw;
+    }
+    #links-div  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 5vh;
+    }
+    .box{
+        width: 100%;
+    }
+    .box h4{
+        margin-bottom: 2vw;
+        font-size: 3.8vw;
+    }
+    .box h5 {
+        font-size: 5.5vw;
+    }
+    .effect {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        font-size: 2vw;
+        overflow: hidden;
+        height: 3.5em; 
+        color: #fff;
+    }
+    .effect .text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+    .effect .text.second {
+        top: 100%;
+    }
+    .effect:hover .text.first {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    
+    .effect:hover .text.second {
+        transform: translateY(-100%);
+        color: rgb(201, 203, 205);
+    }
+    .box:nth-child(3) .first{
+        text-decoration: underline;
+    }
+    #footer h1::before{
+        content: "04";
+        position: absolute;
+        font-size: 5vw;
+        font-family: Silk Serif;
+        font-weight: 100;
+        left: 0%;
+        top: -50%;
+    }
 }
